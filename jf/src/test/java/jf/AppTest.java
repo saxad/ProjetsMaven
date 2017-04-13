@@ -30,9 +30,15 @@ public class AppTest
 
     /**
      * Rigourous Test :-)
+     * @return 
      */
     public void testApp()
     {
-        assertTrue( true );
+    	App a = new App();
+    	assertEquals("max(4,5) vrai",5,a.max(4, 5));
+    	assertEquals("max(5, 4) vrai",5,a.max(5, 4));
+    	
+    
+     /*   assertTrue( true );*/
     }
 }
